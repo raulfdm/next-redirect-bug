@@ -66,6 +66,15 @@ export default function Home(props) {
           <pre>Pay attention on the URL generated</pre>
           <a href="/blog/outro-examplo">/blog/outro-examplo</a>
         </article>
+
+        <article>
+          <h3>Not similar path</h3>
+          <pre>
+            I want redirect a totally not similar url to
+            `/pt/blog/e-o-coronavirus-hein`
+          </pre>
+          <a href="/2018/08/09/coronavirus">/2018/08/09/coronavirus</a>
+        </article>
       </section>
     </div>
   );
