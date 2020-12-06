@@ -8,7 +8,7 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: "/en/blog/e-o-coronavirus-hein",
+        source: "/blog/e-o-coronavirus-hein",
         destination: "/pt/blog/e-o-coronavirus-hein",
         locale: false,
         permanent: true,
