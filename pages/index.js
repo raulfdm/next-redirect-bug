@@ -17,6 +17,9 @@ export default function Home(props) {
       <header>
         <h1>{title[locale]}</h1>
         <p>Current locale: "{locale}"</p>
+        <a href="https://github.com/raulfdm/next-redirect-bug">
+          Project Repository
+        </a>
       </header>
 
       <section>
